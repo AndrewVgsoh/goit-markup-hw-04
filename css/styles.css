@@ -355,8 +355,6 @@ width: calc((100% - 72px) / 4);
 .cust-ul {
   width: calc((100% - 120px) / 6);
   height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
 }
 .cust-link {
   width: 100%;
@@ -364,12 +362,9 @@ width: calc((100% - 72px) / 4);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #8e8f99;
- }
- .cust-link:focus {
-  border-color: #404bbf;
-  color: #404bbf;
- }
+  border: 1px solid #8e8f99,
+  border-radius: 4px;
+} 
 footer {
   background-color: var(--dark);
   align-items: flex-start;
