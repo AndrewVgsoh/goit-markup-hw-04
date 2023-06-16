@@ -143,7 +143,7 @@ main {
   background-image: linear-gradient(
     0deg,
     rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), url(../img/bg-img.jpg);
+    rgba(46, 47, 66, 0.7)), url(../images/bg-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -231,6 +231,15 @@ width: calc((100% - 72px) / 4);
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+}
+.feat-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 .work {
   margin: 0;
