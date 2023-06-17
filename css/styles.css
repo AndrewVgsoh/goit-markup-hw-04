@@ -308,6 +308,7 @@ width: calc((100% - 72px) / 4);
   line-height: 24px;
   letter-spacing: 0.02em;
   margin: 0;
+  margin-bottom: 8px;
 }
 .team-soc-icons {
   display: flex;
@@ -402,8 +403,22 @@ footer .site-logo {
   margin-top: 12px;
   font-style: normal;
 }
-.footer
-
+.footer-div {
+  display: flex;
+  align-items: baseline;
+}
+.footer-logop {
+  margin-right: 120px;
+}
+.footer-icon-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+  
+}
 
 
 /* portfolio */
