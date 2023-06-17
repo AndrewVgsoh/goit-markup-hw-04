@@ -365,7 +365,16 @@ width: calc((100% - 72px) / 4);
   justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  color: #8e8f99;
 } 
+.cust-icon {
+  fill: currentColor;
+}
+.cust-link:hover,
+.cust-link:focus {
+  border-color: #404bbf;
+  color: #404BBF;
+}
 footer {
   background-color: var(--dark);
   align-items: flex-start;
