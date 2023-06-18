@@ -544,7 +544,7 @@ padding-top: 96px;
 }
 .port-div-one:hover .port-cover,
 .port-div-one:focus .port-cover{
-  transform: translateY(0%)
+  transform: translateY(0%);
 }
 .example-text {
   color: var(--text);
