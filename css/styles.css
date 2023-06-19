@@ -38,6 +38,9 @@ h2 {
 p {
   margin: 0;
 }
+input {
+  font-family: inherit;
+}
 header {
   background-color: var(--white);
   display: flex;
